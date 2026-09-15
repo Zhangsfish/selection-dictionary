@@ -1,13 +1,13 @@
 # Step 4B — Unified Public Posting
 
-Status: IN PROGRESS (2026-09-15).
+Status: COMPLETE (2026-09-16).
 
 Canonical repository: https://github.com/Zhangsfish/selection-dictionary
 
-Current work: freeze the approved Chinese post, create its faithful English translation, check each target's current rules, publish only where the approved workflow is allowed, and record every durable public URL in `docs/DISTRIBUTION.md`.
+Completed work: froze the approved Chinese post, created its faithful English translation, checked each target's current rules, published the approved copy to Reddit and Zhihu, recorded compliant non-publication outcomes elsewhere, researched WorkBuddy / SkillHub, and performed the first factual discoverability check.
 
 Canonical sources and the initial distribution ledger must be committed before external posting. Runtime code, the `v0.1.0` tag, and the existing GitHub software release remain unchanged.
 
-Rule findings already affecting execution: LINUX DO requires AI-generated or AI-polished project-introduction material to be posted as screenshots and imposes an open-source promotion template/backlink requirement; the frozen text-only cross-platform workflow is therefore not being auto-posted there. Hacker News prohibits generated or AI-edited comments, so it is marked human-writing-required and receives factual notes only. Other targets remain pending current-rule and authentication checks.
+Rule findings affecting execution: LINUX DO requires AI-generated or AI-polished project-introduction material to be posted as screenshots and imposes an open-source promotion template/backlink requirement; the frozen text-only cross-platform workflow was therefore not posted there. Hacker News prohibits generated or AI-edited comments, and Tencent Cloud Developer Community expects a more substantial original technical article while discouraging AI-heavy promotional copy, so both are marked human-writing-required. V2EX remained blocked by invitation-code activation. Product Hunt was recorded as optional because its launch workflow and assets were disproportionate to this milestone.
 
 No replies, engagement management, Chrome Web Store work, new software release, or product-code change is part of this milestone.

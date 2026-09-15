@@ -5,5 +5,6 @@
 - `HN_FACTS.md` contains factual material only because Hacker News requires human-written discussion text.
 - `SKILLHUB_PLAN.md` records WorkBuddy / SkillHub research; any local draft skill belongs under `skillhub/`.
 - `PLATFORM_RULES.md` records the dated official-rule sources and publication decisions for each Step 4B target.
+- `DISCOVERABILITY.md` records factual search checks performed after publication; never turn it into an SEO or engagement plan.
 - Platform-specific edits are limited to mandatory formatting, title length, tags/categories, disclosures, and faithful translation.
 - Do not automate replies or engagement. Do not move the `v0.1.0` tag or create a software release for distribution-document updates.
