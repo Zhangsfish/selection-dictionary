@@ -49,6 +49,8 @@ In the audited Windows/Chrome run, 100 synthetic selection events reached the de
 
 ## Installation
 
+For the packaged version, download [selection-dictionary-v0.1.0.zip](https://github.com/Zhangsfish/selection-dictionary/releases/download/v0.1.0/selection-dictionary-v0.1.0.zip) from [Releases](https://github.com/Zhangsfish/selection-dictionary/releases/tag/v0.1.0), extract it, and load the extracted folder at `chrome://extensions/` with Developer mode enabled. Refresh your chat page. This route needs desktop Chrome 138+; Node/Python are only needed to build from source below.
+
 Prerequisites: Node.js 24+, npm, and installed **desktop Google Chrome 138+**. Python 3.10+ is needed only for dictionary regeneration and ZIP packaging. Use a Python environment whose interpreter is available as `python` (or invoke the Python scripts with `python3`).
 
 Clone https://github.com/Zhangsfish/selection-dictionary using your Git client. From its root:

@@ -9,3 +9,4 @@
 - Raw logs, browser profiles, live-site responses and failures stay in ignored ../output/.
 - Regeneration commands are documented in ../VERIFICATION.md. Never label mock model/audio results as real output.
 - `publication-gates.json`: Step 2 pre-publication gates and artifact hashes; no credentials or local paths.
+- `publication-inspection.json`: anonymous GitHub inspection at the v0.1.0 release commit, including downloaded artifact verification; historical release evidence.

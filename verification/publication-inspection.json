@@ -1,0 +1,61 @@
+{
+  "anonymousURLs": [
+    {
+      "url": "https://github.com/Zhangsfish/selection-dictionary",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Zhangsfish/selection-dictionary/blob/main/README.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Zhangsfish/selection-dictionary/blob/main/AGENTS.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Zhangsfish/selection-dictionary/blob/main/ADAPTATION_GUIDE.md",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/Zhangsfish/selection-dictionary/tree/v0.1.0",
+      "status": 200
+    },
+    {
+      "url": "https://api.github.com/repos/Zhangsfish/selection-dictionary",
+      "status": 200
+    },
+    {
+      "url": "https://api.github.com/repos/Zhangsfish/selection-dictionary/git/trees/main?recursive=1",
+      "status": 200
+    }
+  ],
+  "public": true,
+  "issues": true,
+  "defaultBranch": "main",
+  "license": "MIT",
+  "topics": [
+    "ai-agents",
+    "browser-extension",
+    "chatgpt",
+    "chrome-extension",
+    "claude",
+    "dictionary",
+    "gemini",
+    "local-first",
+    "translation",
+    "typescript"
+  ],
+  "description": "Ultra-fast local selection dictionary for ChatGPT, Claude and Gemini \u2014 built to be reused and modified by AI coding agents.",
+  "remoteSourceMatchesRelease": true,
+  "sourceFiles": 52,
+  "readmeRelativeLinksResolve": true,
+  "releaseURL": "https://github.com/Zhangsfish/selection-dictionary/releases/tag/v0.1.0",
+  "releaseStatus": 200,
+  "artifactURL": "https://github.com/Zhangsfish/selection-dictionary/releases/download/v0.1.0/selection-dictionary-v0.1.0.zip",
+  "artifactStatus": 200,
+  "artifactSha256": "8cace6b6be4f697cc2643e0ac7ccb4d3f31b321da34bdde9b089ad289deaa877",
+  "artifactBytes": 1443058,
+  "downloadedZipMatches": true,
+  "zipContentsAndCrcPassed": true,
+  "releaseCommit": "c58b9f6c99eefca39e6a2e653e056aa92e4c7178"
+}
