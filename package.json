@@ -1,0 +1,27 @@
+{
+  "name": "selection-dictionary",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first English–Chinese selection dictionary for AI chat",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:browser": "node scripts/browser-test.mjs",
+    "check": "npm run typecheck && npm test && npm run build",
+    "package": "npm run build && python scripts/package-extension.py",
+    "audit": "node scripts/audit-source.mjs",
+    "verify:clean": "node scripts/verify-clean.mjs",
+    "test:live": "node scripts/live-smoke.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.62.1",
+    "typescript": "7.0.2"
+  },
+  "license": "MIT"
+}

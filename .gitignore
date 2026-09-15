@@ -1,0 +1,43 @@
+# Dependencies and generated builds
+node_modules/
+/dist/
+/output/
+/data/raw/
+*.tsbuildinfo
+
+# Local credentials/configuration and browser state (never source)
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*storage-state*.json
+*storageState*.json
+browser-profile*/
+user-data-dir/
+Cookies
+Cookies-journal
+Login Data*
+Local State
+
+# Logs, caches, test scratch, OS/editor files
+*.log
+*.dmp
+*.crash
+*.tmp
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.cache/
+coverage/
+playwright-report/
+test-results/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Reviewed, sanitized verification evidence belongs in verification/, not output/.

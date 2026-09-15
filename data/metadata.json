@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/skywind3000/ECDICT/tree/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+  "sourceFile": "ecdict.csv",
+  "license": "MIT; verbatim notice in ECDICT-LICENSE.txt",
+  "sourceBytes": 65933428,
+  "sourceSha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+  "sourceRows": 770611,
+  "eligibleLexicalEntries": 398433,
+  "selection": "18,000 entries ranked by min(positive bnc, positive frq), plus acceptance vocabulary; exact entry before lemma",
+  "entries": 18001,
+  "aliases": 19030,
+  "entriesWithPhonetic": 16696,
+  "outputBytes": 1796712,
+  "outputSha256": "187b89217f1c1f788cdb77d0f555faa8e491dc6a34dcd9cecd8c85bd2c94f999",
+  "fields": "word -> [phonetic, full Chinese translation]; aliases from exchange:0",
+  "notes": "No invented phonetics or contextual senses. Original phonetic notation retained; not standardized to a single accent."
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Git index plus unignored source candidates; binaries manually reviewed; ignored local output not published",
+  "scannedFiles": 51,
+  "indexedFiles": 51,
+  "findings": [],
+  "terminologyReview": [
+    "scripts/audit-source.mjs"
+  ],
+  "runtimeNetworkFindings": [],
+  "limitations": "Heuristic pattern scan and manual code review; not a proof that all possible secrets or platform network behavior have been detected.",
+  "terminologyExplanation": "Only scanner search expressions; no inaccurate authored product claim."
+}

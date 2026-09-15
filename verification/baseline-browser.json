@@ -1,0 +1,485 @@
+{
+  "browser": "152.0.7977.84",
+  "realExtension": true,
+  "date": "2026-09-15T05:22:55.783Z",
+  "checks": [
+    "load unpacked through Chrome Extensions domain",
+    "https://chatgpt.com: real double-click selection, Chinese + phonetic",
+    "16 selections including inflections/link/bold/code/list; same DOM host; zero HTTP requests",
+    "100 rapid word lookups: synchronous result, no queued dictionary work",
+    "Escape/outside close; popup interior stays open",
+    "selectionchange-only updates without mouse events",
+    "drag released over popup does not leave selection handling stuck",
+    "native mouse drag selects phrase and opens translation path",
+    "bottom-right viewport positioning; light/dark screenshots",
+    "narrow viewport keeps complete popup within bounds",
+    "scroll closes popup and invalidates work",
+    "editable text does not trigger lookup",
+    "newly streamed DOM text works without site-specific selectors",
+    "native Translator API availability and honest UI state",
+    "mock model: explicit activation, cancel old request, late result cannot overwrite new selection",
+    "paragraph translation completion after Escape cannot reopen popup",
+    "mock speech: no autoplay, click cancels previous utterance and speaks original English",
+    "https://claude.ai: real double-click selection, Chinese + phonetic",
+    "https://gemini.google.com: real double-click selection, Chinese + phonetic",
+    "no browser JavaScript errors"
+  ],
+  "latency": {
+    "samples": 100,
+    "eventToDefinitionDOMMs": {
+      "p50": 1.5999999642372131,
+      "p95": 2.100000023841858,
+      "max": 2.5
+    },
+    "eventToNextAnimationFrameMs": {
+      "p50": 16.30000001192093,
+      "p95": 16.700000047683716,
+      "max": 16.900000035762787
+    },
+    "trustedPointerupToDefinitionDOMMs": {
+      "p50": 4.600000023841858,
+      "p95": 38.89999997615814,
+      "max": 38.89999997615814,
+      "raw": [
+        38.89999997615814,
+        6.5,
+        6.300000011920929,
+        4.300000011920929,
+        4.600000023841858,
+        3.5,
+        1.399999976158142
+      ],
+      "firstPopupMs": 38.89999997615814
+    },
+    "raw": [
+      {
+        "domMs": 1.2000000476837158,
+        "nextFrameMs": 13.5
+      },
+      {
+        "domMs": 1.399999976158142,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.599999964237213
+      },
+      {
+        "domMs": 1,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16.299999952316284
+      },
+      {
+        "domMs": 0.8999999761581421,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.599999964237213
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.100000023841858,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1,
+        "nextFrameMs": 16.200000047683716
+      },
+      {
+        "domMs": 1,
+        "nextFrameMs": 16.200000047683716
+      },
+      {
+        "domMs": 0.9000000357627869,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1.100000023841858,
+        "nextFrameMs": 16.400000035762787
+      },
+      {
+        "domMs": 1.7999999523162842,
+        "nextFrameMs": 16.099999964237213
+      },
+      {
+        "domMs": 1.300000011920929,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.400000035762787
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.9000000357627869,
+        "nextFrameMs": 16.900000035762787
+      },
+      {
+        "domMs": 2.099999964237213,
+        "nextFrameMs": 16.099999964237213
+      },
+      {
+        "domMs": 1.4000000357627869,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.100000023841858
+      },
+      {
+        "domMs": 2.099999964237213,
+        "nextFrameMs": 16.899999976158142
+      },
+      {
+        "domMs": 1.9000000357627869,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 2.5,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.099999964237213
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.4000000357627869,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 2.200000047683716,
+        "nextFrameMs": 16.700000047683716
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.100000023841858
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.100000023841858
+      },
+      {
+        "domMs": 1.300000011920929,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.2999999523162842,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.600000023841858,
+        "nextFrameMs": 16.700000047683716
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.300000011920929,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.600000023841858,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.0999999642372131,
+        "nextFrameMs": 16.69999998807907
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1,
+        "nextFrameMs": 16.69999998807907
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 2.100000023841858,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 2.199999988079071,
+        "nextFrameMs": 16.299999952316284
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.69999998807907
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.099999964237213
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1.399999976158142,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.399999976158142,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.300000011920929,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.9000000357627869,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1.7999999523162842,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.7999999523162842,
+        "nextFrameMs": 16.799999952316284
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.099999964237213
+      },
+      {
+        "domMs": 2.100000023841858,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 15.699999988079071
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 2,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.7999999523162842,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.100000023841858
+      },
+      {
+        "domMs": 1.199999988079071,
+        "nextFrameMs": 16.69999998807907
+      },
+      {
+        "domMs": 2.099999964237213,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.800000011920929,
+        "nextFrameMs": 16.100000023841858
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16.399999976158142
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.5999999642372131,
+        "nextFrameMs": 16.599999964237213
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.300000011920929,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.600000023841858,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 16.600000023841858
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16
+      },
+      {
+        "domMs": 1.699999988079071,
+        "nextFrameMs": 16.5
+      },
+      {
+        "domMs": 1.5,
+        "nextFrameMs": 15.899999976158142
+      },
+      {
+        "domMs": 2.300000011920929,
+        "nextFrameMs": 16.30000001192093
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16.69999998807907
+      },
+      {
+        "domMs": 1.600000023841858,
+        "nextFrameMs": 16.19999998807907
+      },
+      {
+        "domMs": 1.899999976158142,
+        "nextFrameMs": 16.399999976158142
+      }
+    ],
+    "method": "synthetic pointerup loop and separate trusted mouse double-click sample; actual MV3 isolated script, preloaded dictionary, headless Chrome; rAF is not paint"
+  },
+  "websiteFixtures": [
+    {
+      "origin": "https://chatgpt.com",
+      "translator": "function",
+      "source": "local fixture, not live website UI"
+    },
+    {
+      "origin": "https://claude.ai",
+      "translator": "function",
+      "source": "local fixture, not live website UI"
+    },
+    {
+      "origin": "https://gemini.google.com",
+      "translator": "function",
+      "source": "local fixture, not live website UI"
+    }
+  ],
+  "liveSites": [],
+  "limitations": [
+    "Fixture origins validate matching/injection only, not authenticated live site layouts.",
+    "Mock translation race and TTS wiring tests do not prove model quality, model latency, or audible voice output."
+  ],
+  "nativeTranslation": {
+    "type": "function",
+    "availability": "downloadable",
+    "ui": "首次使用需启用本地翻译，Chrome 可能下载语言模型。"
+  }
+}

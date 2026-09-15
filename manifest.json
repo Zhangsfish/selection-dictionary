@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Selection Dictionary · 划词词典",
+  "version": "0.1.0",
+  "description": "AI 对话页面的本地英中划词词典、端侧句子翻译与英文朗读。",
+  "minimum_chrome_version": "138",
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://claude.ai/*", "https://gemini.google.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle",
+    "all_frames": false,
+    "world": "ISOLATED"
+  }]
+}
