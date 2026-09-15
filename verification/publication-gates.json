@@ -1,0 +1,66 @@
+{
+  "milestone": "Step 2 pre-publication gates",
+  "date": "2026-09-15T06:03:47.895Z",
+  "cleanSourcePassed": true,
+  "unitTests": 17,
+  "browserChecks": 21,
+  "browser": "152.0.7977.84",
+  "node": "v24.15.0",
+  "artifact": {
+    "version": "0.1.0",
+    "files": {
+      "ECDICT-LICENSE.txt": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f",
+      "INSTALL.txt": "6dc2f3f736ac253db6fdbe612282fa36a0a763a49e95ab81f30acaa724eb993a",
+      "LICENSE": "d4e5be84bdeb6c472f73b43a1cf3ed7dc5b62185a6e295889fd9f6562d4ab56e",
+      "THIRD_PARTY_NOTICES.md": "36a5e578d63a214114791f40fa3cbe26cd735e6a053568b2873090ce701133b6",
+      "content.js": "914132af938b5d4ab787577513581d7780f1391830cc79e2e7ad8f226e495873",
+      "content.js.map": "8b805e2c01c0d9fa673eb97ada2da11a8bd1487859f365a4e46539cb5d21f566",
+      "dictionary-metadata.json": "25b1a9547f4099b71225a543cf85c1fb6c9f30be3828b2df93ca728d833d73f0",
+      "manifest.json": "27dfce1042529baf28955d93d6a852e933c8ad606117cb529082bb2482446735"
+    },
+    "zipBytes": 1443058,
+    "zipSha256": "8cace6b6be4f697cc2643e0ac7ccb4d3f31b321da34bdde9b089ad289deaa877"
+  },
+  "cleanCommands": [
+    {
+      "command": "npm ci --cache=output/npm-cache --no-audit --no-fund --fetch-timeout=60000 --fetch-retries=1",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run package",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run package",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run test:browser",
+      "exitCode": 0
+    },
+    {
+      "command": "python scripts/prepare-dictionary.py --download --check",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run audit",
+      "exitCode": 0
+    }
+  ],
+  "identicalArtifacts": {
+    "dist/content.js": "914132af938b5d4ab787577513581d7780f1391830cc79e2e7ad8f226e495873",
+    "dist/content.js.map": "8b805e2c01c0d9fa673eb97ada2da11a8bd1487859f365a4e46539cb5d21f566",
+    "data/dictionary.json": "187b89217f1c1f788cdb77d0f555faa8e491dc6a34dcd9cecd8c85bd2c94f999",
+    "data/ECDICT-LICENSE.txt": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f"
+  },
+  "repeatPackageIdentical": true,
+  "sourceAuditFindings": [],
+  "limitations": [
+    "Fixture origins validate matching/injection only, not authenticated live site layouts.",
+    "Mock translation race and TTS wiring tests do not prove model quality, model latency, or audible voice output."
+  ]
+}

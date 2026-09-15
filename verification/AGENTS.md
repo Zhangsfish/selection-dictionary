@@ -8,3 +8,4 @@
 - `reproducibility.json`: clean-source install/build/data/package/browser outcomes.
 - Raw logs, browser profiles, live-site responses and failures stay in ignored ../output/.
 - Regeneration commands are documented in ../VERIFICATION.md. Never label mock model/audio results as real output.
+- `publication-gates.json`: Step 2 pre-publication gates and artifact hashes; no credentials or local paths.

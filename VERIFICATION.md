@@ -48,3 +48,7 @@ Only reviewed fixtures and sanitized JSON belong in verification/. All profiles,
 PASS. The reviewed 47-file source snapshot installed with a fresh npm cache, passed 17 unit tests and 21 browser checks, retrieved the pinned 65,933,428-byte CSV and regenerated data byte-for-byte. Content script, source map, dictionary and upstream license hashes matched the working source build. Two packages were identical (1,443,058 bytes). See verification/reproducibility.json for hashes, commands and independent clean-run timings. Subsequent changes are documentation and reviewed evidence only; runtime, dependencies, data and build/test scripts remain those of the tested snapshot.
 
 The final publishable inventory includes reviewed light/dark screenshots and sanitized reports added after that snapshot. No remote or commit has been created. Ignored historical local output remains on disk and must not be shared by copying the entire working directory; share Git-tracked source or the allowlisted extension ZIP.
+
+## Step 2 publication gates
+
+Repeated on 2026-09-15: npm ci (zero reported vulnerabilities), npm run check (17 passing tests and strict typecheck), npm run package, npm run test:browser (21 passing checks), npm run audit (no findings), and npm run verify:clean (fresh install/cache/profile, pinned CSV regeneration and identical builds/packages). Machine-readable results: verification/publication-gates.json. Runtime and build code are unchanged from Step 1. Only public URL, README wording, release evidence and milestone status changed.
